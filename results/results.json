@@ -1,0 +1,385 @@
+{
+ "seed": 2026,
+ "train_letters": 229394,
+ "test_letters": 98312,
+ "E1_ciphertext_only": [
+  {
+   "n": 50,
+   "trials": 100,
+   "success": 0.0,
+   "mean_acc": 0.0812,
+   "mean_s": 0.05824783234000023,
+   "mean_hyp": 6147.56
+  },
+  {
+   "n": 100,
+   "trials": 100,
+   "success": 0.1,
+   "mean_acc": 0.2475,
+   "mean_s": 0.07150282158000096,
+   "mean_hyp": 7292.52
+  },
+  {
+   "n": 150,
+   "trials": 100,
+   "success": 0.49,
+   "mean_acc": 0.6404666666666666,
+   "mean_s": 0.07247173763999797,
+   "mean_hyp": 6811
+  },
+  {
+   "n": 200,
+   "trials": 100,
+   "success": 0.75,
+   "mean_acc": 0.865,
+   "mean_s": 0.07300991828000178,
+   "mean_hyp": 6640.7
+  },
+  {
+   "n": 300,
+   "trials": 100,
+   "success": 0.93,
+   "mean_acc": 0.9727333333333333,
+   "mean_s": 0.07058022694999778,
+   "mean_hyp": 6472.22
+  },
+  {
+   "n": 500,
+   "trials": 100,
+   "success": 1.0,
+   "mean_acc": 1.0,
+   "mean_s": 0.06816148704999819,
+   "mean_hyp": 6305.56
+  },
+  {
+   "n": 1000,
+   "trials": 100,
+   "success": 1.0,
+   "mean_acc": 1.0,
+   "mean_s": 0.0693723835700007,
+   "mean_hyp": 6256.68
+  },
+  {
+   "n": 2000,
+   "trials": 100,
+   "success": 1.0,
+   "mean_acc": 1.0,
+   "mean_s": 0.07352774613000036,
+   "mean_hyp": 6277.48
+  },
+  {
+   "n": 5000,
+   "trials": 100,
+   "success": 1.0,
+   "mean_acc": 1.0,
+   "mean_s": 0.09749860028000257,
+   "mean_hyp": 6322.72
+  }
+ ],
+ "E2a_known_plaintext_vs_m": [
+  {
+   "m": 5,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 0.0,
+   "mean_s": 0.0015715489049999577,
+   "mean_hyp": 143.88
+  },
+  {
+   "m": 8,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 0.0,
+   "mean_s": 0.0016398216649994878,
+   "mean_hyp": 230.76
+  },
+  {
+   "m": 10,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 0.0,
+   "mean_s": 0.001717062945000265,
+   "mean_hyp": 288.69
+  },
+  {
+   "m": 12,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 0.0,
+   "mean_s": 0.0018168547399997693,
+   "mean_hyp": 346.755
+  },
+  {
+   "m": 14,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 0.96,
+   "mean_s": 0.0018344086149997452,
+   "mean_hyp": 404.71
+  },
+  {
+   "m": 16,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0019484455300006686,
+   "mean_hyp": 460.75
+  },
+  {
+   "m": 20,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.002058716415000106,
+   "mean_hyp": 572.78
+  },
+  {
+   "m": 30,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.002415106294999987,
+   "mean_hyp": 852.91
+  },
+  {
+   "m": 50,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.002205319734998312,
+   "mean_hyp": 1134
+  },
+  {
+   "m": 100,
+   "n": 500,
+   "key_len": 14,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0022275088700007472,
+   "mean_hyp": 1134
+  }
+ ],
+ "E2b_known_plaintext_vs_n": [
+  {
+   "n": 30,
+   "m": 20,
+   "trials": 200,
+   "success": 0.97,
+   "mean_s": 0.0009823662250003906
+  },
+  {
+   "n": 50,
+   "m": 20,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0010832227649996183
+  },
+  {
+   "n": 100,
+   "m": 20,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0011707321699996954
+  },
+  {
+   "n": 500,
+   "m": 20,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0020512755349992064
+  },
+  {
+   "n": 1000,
+   "m": 20,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.0030155884649995814
+  },
+  {
+   "n": 5000,
+   "m": 20,
+   "trials": 200,
+   "success": 1.0,
+   "mean_s": 0.011338472249999967
+  }
+ ],
+ "E3_case_study": {
+  "ciphertext_only": {
+   "recovered": "KGFORZELEACCEWERMEDFCTATEMARITTABEOGDSLOTAISESTATEVEHCKOEFHHELONARISSOFIRTHTTITREHENSTALSARARIATTYPUPAGAF",
+   "rails": 23,
+   "key": "WPRYVPINEKSODNFJVERJGMPHJFU",
+   "exact": false,
+   "accuracy": 0.02857142857142857,
+   "seconds": 0.07421611600000233
+  },
+  "known_plaintext_m10": {
+   "exact": false,
+   "rails": 3,
+   "key": "NETWORKSEC",
+   "accuracy": 0.38095238095238093,
+   "seconds": 0.0009182570000234591
+  },
+  "known_plaintext_m14": {
+   "exact": false,
+   "rails": 30,
+   "key": "NYFGVXQVNNLRAI",
+   "accuracy": 0.1523809523809524,
+   "seconds": 0.0009916850000024624
+  },
+  "known_plaintext_m15": {
+   "exact": true,
+   "rails": 3,
+   "key": "NETWORKSECURITY",
+   "accuracy": 1.0,
+   "seconds": 0.0010272140000040508
+  },
+  "known_plaintext_m20": {
+   "exact": true,
+   "rails": 3,
+   "key": "NETWORKSECURITY",
+   "accuracy": 1.0,
+   "seconds": 0.0012778050000008534
+  },
+  "known_plaintext_m35": {
+   "exact": true,
+   "rails": 3,
+   "key": "NETWORKSECURITY",
+   "accuracy": 1.0,
+   "seconds": 0.001642930000002707
+  }
+ },
+ "E4_stats": {
+  "sample_plain": {
+   "n": 105,
+   "ic": 0.04065934065934066,
+   "entropy": 4.536286231168867,
+   "max_freq": 11.428571428571429,
+   "max_letter": "O",
+   "distinct": 26
+  },
+  "sample_stage1": {
+   "n": 105,
+   "ic": 0.03663003663003663,
+   "entropy": 4.566254509059691,
+   "max_freq": 7.6190476190476195,
+   "max_letter": "F",
+   "distinct": 26
+  },
+  "sample_final": {
+   "n": 105,
+   "ic": 0.03663003663003663,
+   "entropy": 4.566254509059691,
+   "max_freq": 7.6190476190476195,
+   "max_letter": "F",
+   "distinct": 26
+  },
+  "long_plain": {
+   "n": 5000,
+   "ic": 0.07068989797959592,
+   "entropy": 4.071032011801255,
+   "max_freq": 12.520000000000001,
+   "max_letter": "E",
+   "distinct": 26
+  },
+  "long_stage1": {
+   "n": 5000,
+   "ic": 0.04058995799159832,
+   "entropy": 4.658340759457618,
+   "max_freq": 6.140000000000001,
+   "max_letter": "Z",
+   "distinct": 26
+  },
+  "long_final": {
+   "n": 5000,
+   "ic": 0.04058995799159832,
+   "entropy": 4.658340759457618,
+   "max_freq": 6.140000000000001,
+   "max_letter": "Z",
+   "distinct": 26
+  }
+ },
+ "E4_repeats": {
+  "stage1_trigrams": {
+   "GLX": [
+    0,
+    60
+   ],
+   "NYM": [
+    25,
+    70
+   ],
+   "KRW": [
+    35,
+    95
+   ]
+  },
+  "final_trigrams": {}
+ },
+ "E4_freqs": {
+  "plain": [
+   8.94,
+   1.02,
+   5.3,
+   3.26,
+   12.520000000000001,
+   2.32,
+   1.8800000000000001,
+   4.6,
+   8.200000000000001,
+   0.08,
+   0.27999999999999997,
+   4.12,
+   1.8399999999999999,
+   6.1,
+   4.72,
+   2.2399999999999998,
+   0.02,
+   9.34,
+   7.4399999999999995,
+   9.84,
+   2.78,
+   0.5,
+   1.16,
+   0.32,
+   1.0999999999999999,
+   0.08
+  ],
+  "stage1": [
+   3.46,
+   3.44,
+   3.54,
+   3.6999999999999997,
+   3.32,
+   4.12,
+   4.9,
+   4.16,
+   3.9,
+   3.62,
+   2.98,
+   3.7600000000000002,
+   4.02,
+   5.48,
+   3.74,
+   3.58,
+   2.6,
+   4.82,
+   3.0,
+   2.1399999999999997,
+   3.44,
+   5.88,
+   2.62,
+   3.36,
+   4.279999999999999,
+   6.140000000000001
+  ]
+ }
+}
